@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tourguide"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.tourguide.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="tourguide.tourguidedemo.ToolbarActivity"
+            android:label="Toolbar Activity" />
+        <activity
+            android:name="tourguide.tourguidedemo.BasicActivity"
+            android:label="Basic Activity" />
+        <activity
+            android:name="tourguide.tourguidedemo.ToolTipGravityActivity"
+            android:label="Tooltip Gravity Activity" />
+        <activity
+            android:name="tourguide.tourguidedemo.ToolTipCustomizationActivity"
+            android:label="ToolTip Customization Activity" />
+        <activity
+            android:name="tourguide.tourguidedemo.OverlayCustomizationActivity"
+            android:label="Overlay Customization Activity" />
+        <activity
+            android:name="tourguide.tourguidedemo.MultipleToolTipActivity"
+            android:label="Multiple Tooltip Activity" />
+        <activity
+            android:name="tourguide.tourguidedemo.NoPointerActivity"
+            android:label="NoPointer Activity" />
+        <activity
+            android:name="tourguide.tourguidedemo.NoPointerNoToolTipActivity"
+            android:label="Overlay Only Activity" />
+        <activity
+            android:name="tourguide.tourguidedemo.NoOverlayActivity"
+            android:label="No Overlay Activity" />
+        <activity
+            android:name="tourguide.tourguidedemo.InSequenceActivity"
+            android:label="In Sequence Activity" />
+        <activity
+            android:name="tourguide.tourguidedemo.TourGuideDemoMain"
+            android:label="Tour Guide Demo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
